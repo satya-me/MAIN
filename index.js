@@ -93,8 +93,8 @@ app.use((req, res, next) => {
 
 
 
-const PORT = process.env.PORT || 5001;
-const HOST = process.env.HOST || "http://localhost:5001";
+const PORT = process.env.PORT || 8080;
+const HOST = process.env.HOST || "http://localhost:8080";
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${HOST}`);
