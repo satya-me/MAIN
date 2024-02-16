@@ -60,8 +60,8 @@ app.use('/api/hardware', Hardware);
 // app.use('/api/srv-1', entRouter);
 
 
-app.get('/api/hi', (req, res) => {
-    res.send("Hello I am Server, Happy To See You..")
+app.get('/', (req, res) => {
+    res.send("Hello I am Server, Have a great day!")
 });
 
 
